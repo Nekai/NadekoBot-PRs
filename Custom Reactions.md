@@ -1,4 +1,4 @@
-<h1>Custom Reactions <div style="margin-top:265px"><a href="https://nadekobot.xyz/">
+<h1>Custom Reactions <div style="margin-top:"><a href="https://nadekobot.xyz/">
 <img src="http://i.imgur.com/VtL9Omo.png"  width="0" height="0" border="0">![Imgur](http://i.imgur.com/VtL9Omo.png "@Nekai :P takes you to the nadekobot website")</h1></a></div>
 ###<p><strong>Every time you add or remove a custom reaction you will need to restart your bot with either <code>.restart</code> if you are hosting, or <code>.die</code> if Nadeko is on a VPS.</strong></p>
 <h3>Important</h3>
