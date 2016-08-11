@@ -1,4 +1,5 @@
-<h1>Custom Reactions</h1>
+<h1>Custom Reactions<img src="http://i.imgur.com/1T2L3xR.png" style="width:15%;  height:auto;"> <span style="width:100%"><a href="https://nadekobot.xyz/">
+<img src="http://i.imgur.com/VtL9Omo.png"  width="0" height="0" border="0">![Imgur](http://i.imgur.com/VtL9Omo.png "@Nekai :P takes you to the nadekobot website")</h1></a></span>
 ###<p><strong>Every time you add or remove a custom reaction you will need to restart your bot with either <code>.restart</code> if you are hosting, or <code>.die</code> if Nadeko is on a VPS.</strong></p>
 <h3>Important</h3>
 <ul style="list-style-type:disc">
@@ -32,19 +33,36 @@
 <td>Edit a custom reaction, needs: reaction's name, index to change, and new multiword response.</td>
 <td><code>.ecr&nbsp;Hello&nbsp;3&nbsp;What's up</code></td></table>
 <h3>Now that we know the commands let's take a look at the arguments and placeholders available for <code>.acr</code>,</h3>
-<p><code>.addcustreact</code>&nbsp;(<code>.acr</code>)&nbsp;takes two arguments:<dl>
+<p><code>.addcustreact</code>&nbsp;(<code>.acr</code>)&nbsp;takes two arguments:
+<dl>
 <dt><strong>●&nbsp;First, The name of the command; this directly follows the <code>.acr</code></strong></dt>
 <dd>-&nbsp;If your command name is more than 1 word use quotation marks;<br> i.e <del><code>.acr Nice weather sure is</code></del> > <code>.acr "Nice weather" sure is</code></dd>
 <dd>-&nbsp;Now everytime someone says "Nice weather" the bot will respond with, "sure is"</dd>
 <dt><strong>●&nbsp;Next, The Response, this follows the name of the command.</strong><dt>
-<dd>-&nbsp;i.e <code>.acr "Nice weather"</code><b><i><code>sure is</code></i></b></dd><p>
+<dd>-&nbsp;i.e <code>.acr "Nice weather"</code><b><i><code>sure is</code></i></b></dd></dl><p>
 <h3>And finally on to the Placeholders</h3>
 <p>There are currently four placeholders, which we will be looking at, with many more to come in the future.<p>
 <table>
 <tr>
 <th>Placeholder</th>
-<th>How to use the placeholder</th>
-<th>What the placeholder does</th>
+<th>How the placeholder works</th>
 <th>Examples</th>
 </tr><tr>
-<td><code>%mention%</code></td>
+<td align="center"><code>%mention%</code></td>
+<td>The&nbsp;<code>%mention%</code>&nbsp;placeholder is triggered when you type <code>@botname</code></td>
+<td><code>.acr "%mention% Hello" Hello!</code> > User input: @botname Hello | Bot Replies: Hello!</td>
+</tr><tr>
+<td align="center"><code>%target%</code></td>
+<td>The <code>%target%</code> placeholder is used to make Nadeko Mention another person</td>
+<td><code>.acr "%mention% Hello" %target% Hi!</code> > User inputs: "@botname Hello @somebody" 
+ Bot replies: "Hi @somebody"</td>
+ </tr><tr>
+ <td align="center"><code>%user%</code></td>
+ <td>The <code>%user%</code> placeholder mentions the person who said the command</td>
+ <td><code>.acr "Who am i" You are %user%!</code></td>
+ </tr><tr>
+ <td align="center"><code>%rng%</code></td>
+ <td>The <code>%rng%</code> generates a random number</td>
+ <td><code>.acr Random %rng%</code>
+ </tr></table>
+
