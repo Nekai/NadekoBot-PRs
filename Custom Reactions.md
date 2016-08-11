@@ -1,6 +1,6 @@
 <h1>Custom Reactions<img src="http://i.imgur.com/1T2L3xR.png" style="width:15%;  height:auto;"> <span style="width:100%"><a href="https://nadekobot.xyz/">
 <img src="http://i.imgur.com/VtL9Omo.png"  width="0" height="0" border="0">![Imgur](http://i.imgur.com/VtL9Omo.png "@Nekai :P takes you to the nadekobot website")</h1></a></span>
-###<p><strong>Every time you add or remove a custom reaction you will need to restart your bot with either <code>.restart</code> if you are hosting, or <code>.die</code> if Nadeko is on a VPS.</strong></p>
+###<p><strong>Every time you add or remove a custom reaction you will need to restart your bot with either <code>.restart</code> if you are hosting or Nadeko is on VPS, or <code>.die</code> if Nadeko is on Droplet</strong></p>
 <h3>Important</h3>
 <ul style="list-style-type:disc">
 <li><strong><code>.acr</code>,&nbsp;<code>.dcr</code>,&nbsp;and <code>.ecr</code> Require you to be Bot Owner</strong></li>
