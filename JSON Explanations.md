@@ -31,7 +31,7 @@ Do the same for yourself with `.uid @MyName` Put these numbers in their respecti
 
 Setting up your API keys
 ====================
-#####This part is completely optional
+####This part is completely optional, **However it is necessary for music to work properly**
 + **GoogleAPIKey** - Required for Youtube Song Search, Playlist queuing, and URL Shortener. `~i` and `~img`. 
   + You can get this api Key [here](https://console.developers.google.com/apis)
 + **SoundCloudClientID** - Required to queue soundloud songs from sc links.
