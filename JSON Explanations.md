@@ -24,7 +24,7 @@ If you do not see `credentials.json` you will need to rename `credentials_exampl
 + **Token** - Required to log in. Refer to this [guide](http://discord.kongslien.net/guide.html)
 + **OwnerIds** - Required for the **Owner-Only** commands. Seperate multiple Id's with a comma.
 + **BotId** - Required for custom reactions and conversation commands to work.  
-  + **Important : BotId is the same as your ClientId due to a recent Discord Update** 
+  + **Important : Bot ID and Client ID are the same in newer bot accounts due to recent Discord API changes.** 
 
 _BotId and the OwnerIds are **NOT** the names of the owner and the bot. If you do not know the id of your bot, keep the two random numbers in those fields and 
 run the bot then do  `.uid @MyBotName` - this will give you your bot_id.
