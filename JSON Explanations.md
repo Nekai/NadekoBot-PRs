@@ -18,6 +18,7 @@ If you do not see `credentials.json` you will need to rename `credentials_exampl
   "TrelloAPPKey": "",
   "OsuAPIKey": "",
   "CarbonKey": "",
+}
 ```
 ####Required Parts
 + **Token** - Required to log in. Refer to this [guide](http://discord.kongslien.net/guide.html)
